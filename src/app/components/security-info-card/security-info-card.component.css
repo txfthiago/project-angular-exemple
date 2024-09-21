@@ -1,0 +1,21 @@
+.seguro-info-card {
+  width: 100%;
+  .checkbox {
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2px;
+    max-width: 100%;
+  }
+  .seguro-info {
+    margin-top: 3px;
+    border: 1px solid #e0e0e0;
+    height: 300px;
+    padding: 0 2px 0 8px;
+    max-width: 100%;
+
+    .seguro-valor {
+      display: flex;
+      justify-content: flex-start;
+      gap: 40px;
+    }
+  }
+}

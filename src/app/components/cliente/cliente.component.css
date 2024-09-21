@@ -1,0 +1,52 @@
+/* Estilo geral do card */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 16px auto;
+  }
+  
+  /* Estilo do cabeçalho do card */
+  .card-header {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 16px;
+  }
+  
+  .card-header h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Estilo do conteúdo do card */
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .info {
+    margin-right: 16px;
+  }
+  
+  .info strong {
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .info small {
+    display: block;
+    font-size: 0.8rem;
+    color: #888;
+  }
+  
